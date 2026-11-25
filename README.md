@@ -1,6 +1,35 @@
-# Хакатон CyberGarden Software 2025 
-## Кейс от компании Оджетто "Интерактивная мусорка"
+# ♻️ Интерактивная мусорка — Хакатон CyberGarden Software 2025
 
-[Ссылка на презентационное видео](https://drive.google.com/file/d/1YUPg5X4H7Z-vQSlgPoE4wsgWWcidapYh/view?usp=drive_link)
+Веб-приложение, разработанное в рамках хакатона **CyberGarden Software 2025** по кейсу от компании **Оджетто**. Проект мотивирует пользователей правильно сортировать отходы с помощью геймификации, распознавания предметов через камеру и системы начисления бонусов.
 
-[Ссылка на презентацию](https://docs.google.com/presentation/d/14kNOM7DgQy1w6xPM3Wf09uHZ31GK4FdE/edit?usp=drive_link&ouid=106090788844319268154&rtpof=true&sd=true)
+## 🔗 Материалы проекта
+* 🎥 [Ссылка на презентационное видео](https://drive.google.com/file/d/1YUPg5X4H7Z-vQSlgPoE4wsgWWcidapYh/view?usp=drive_link)
+* 📊 [Ссылка на презентацию](https://docs.google.com/presentation/d/14kNOM7DgQy1w6xPM3Wf09uHZ31GK4FdE/edit?usp=drive_link&ouid=106090788844319268154&rtpof=true&sd=true)
+
+## 🚀 Основной функционал
+* **Распознавание отходов (`camera.html`, `result.html`)** — сканирование мусора через камеру устройства и определение нужного контейнера для сортировки.
+* **Система авторизации и QR-коды (`qr.html`, `welcome.html`)** — быстрое взаимодействие с интерактивным контейнером и привязка сессии к пользователю.
+* **Личный кабинет и статистика (`profile.html`, `list.html`)** — отслеживание прогресса, истории сданных отходов и накопленных баллов.
+* **Панель администратора (`admin.html`)** — мониторинг состояния системы и управление данными.
+* **Интерактивный интерфейс (`animation.html`)** — визуальное сопровождение процесса сортировки.
+
+## 🛠 Стек технологий
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Backend:** Node.js (`server.js`)
+* **База данных и хостинг:** Firebase (`firebase.js`, `firebase.json`)
+
+## ⚙️ Запуск проекта локально
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/V11RUSss/waste-sorting-hackaton2025.git
+   cd waste-sorting-hackaton2025
+   ```
+2. Установите зависимости:
+   ```bash
+   npm install
+   ```
+3. Запустите сервер:
+   ```bash
+   node server.js
+   ```
